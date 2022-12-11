@@ -118,6 +118,7 @@ class BasicExample extends React.Component {
                 expanded={expanded}
                 iconsClass="fa5"
                 nodes={nodes}
+                noCascade={Boolean(true)}
                 onCheck={this.onCheck}
                 onExpand={this.onExpand}
             />
